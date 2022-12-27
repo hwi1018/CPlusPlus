@@ -1,0 +1,6 @@
+﻿  Base.cpp
+d:\개발정리\문법\c++\cplusapp\classbasic\base.cpp(3): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  ClassBase.cpp
+d:\개발정리\문법\c++\cplusapp\classbasic\classbase.cpp(2): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  코드를 생성하고 있습니다...
+  ClassBasic.vcxproj -> D:\개발정리\문법\C++\CplusApp\Debug\ClassBasic.exe
