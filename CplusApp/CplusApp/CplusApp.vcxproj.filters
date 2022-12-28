@@ -27,4 +27,7 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CPlusplus 설명.txt" />
+  </ItemGroup>
 </Project>

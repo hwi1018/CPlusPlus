@@ -25,6 +25,9 @@
   <ItemGroup>
     <ClInclude Include="Customer.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CPlusplus 설명.txt" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{F5D8E72E-8012-4EE1-85C7-2B761B6CEDAC}</ProjectGuid>
