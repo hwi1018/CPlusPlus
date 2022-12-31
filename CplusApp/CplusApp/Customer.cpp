@@ -7,13 +7,23 @@ Account::Account(int id, int money, char* name)
 {
 	this->id = id;
 	this->balance = money;
+	
 	this->name = new char[strlen(name) + 1];
 	strcpy(this->name, name);
 }
 
+Account::Account(const Account& ref)
+{
+	this->id = ref.id;
+	this->balance = ref.balance;
+	
+	this->name = new char[strlen(ref.name) + 1];
+	strcpy(this->name, ref.name);
+}
+
 Account::~Account()
 {
-	delete[]name;
+	delete []name;
 }
 
 int Account::GetID(void) const

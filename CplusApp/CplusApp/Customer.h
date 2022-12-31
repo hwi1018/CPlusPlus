@@ -22,6 +22,7 @@ private:
 
 public:
 	Account(int id, int money, char* name);
+	Account(const Account& ref);
 	~Account();
 	int GetID(void) const;
 	void DepositMoney(int money);
